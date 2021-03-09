@@ -12,3 +12,6 @@ def time_conversion(number):
         print(string_min + " " + "minute")
     else:
         print(string_min + " " + "minutes")
+
+
+time_conversion(63)
