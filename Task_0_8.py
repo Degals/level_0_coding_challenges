@@ -5,13 +5,13 @@ def time_conversion(number):
     string_hour = str(hour)
     string_min = str(mins)
     if hour <= 1:
-        print(string_hour + " " + "hour")
+        print(string_hour + " " + "hour", ",", " ", end="")
     else:
-        print(string_hour + " " + "hours")
+        print(string_hour + " " + "hours", ",", " ", end="")
     if mins <= 1:
-        print(string_min + " " + "minute")
+        print(string_min + " " + "minute", end="")
     else:
-        print(string_min + " " + "minutes")
+        print(string_min + " " + "minutes", end="")
 
 
 time_conversion(63)
