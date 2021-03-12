@@ -1,5 +1,5 @@
 def hello(name):
-    print("Hello" + " " + name)
+    print("Hello" + " " + name + "!")
 
 
-hello("Decclan")
+hello("Tshepo")
