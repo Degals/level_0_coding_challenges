@@ -1,12 +1,12 @@
-def convert_c_to_f(celsius):
-    return celsius * (9/5) + 32
+def convert_celsius_to_fahrenheit(temperature_in_celsius):
+    return temperature_in_celsius * (9/5) + 32
 
 
-convert_c_to_f(32)
+convert_celsius_to_fahrenheit(32)
 
 
-def convert_f_to_c(fahrenheit):
-    return (fahrenheit - 32) * 5/9
+def convert_fahrenheit_to_celsius(temperature_in_fahrenheit):
+    return (temperature_in_fahrenheit - 32) * 5/9
 
 
-convert_f_to_c(100)
+convert_fahrenheit_to_celsius(100)
