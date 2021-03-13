@@ -1,5 +1,9 @@
 def maximum(*numbers):
-    return max(*numbers)
+    largest_number = numbers[0]
+    for integer in numbers:
+        if integer > largest_number:
+            largest_number = integer
+    return largest_number
 
 
-maximum(200000, 44, 100, 500000000, 80000000000)
+maximum(41800, 92, 3, 98000, 100)
