@@ -1,7 +1,6 @@
 def time_conversion(number):
     hour = number // 60
     mins = (number % 60)
-    time = hour + mins
     string_hour = str(hour)
     string_min = str(mins)
     if hour <= 1:
